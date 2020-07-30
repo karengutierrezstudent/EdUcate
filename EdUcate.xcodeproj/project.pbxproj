@@ -23,6 +23,8 @@
 		8F2E56D324D1F39B00508B69 /* EdUcate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E56D124D1F39B00508B69 /* EdUcate.xcdatamodeld */; };
 		8F2E56D524D1F39E00508B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E56D424D1F39E00508B69 /* Assets.xcassets */; };
 		8F2E56D824D1F39E00508B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E56D624D1F39E00508B69 /* LaunchScreen.storyboard */; };
+		8F2E570C24D36CEC00508B69 /* 14686890542_481589ae4c_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E570A24D36CEB00508B69 /* 14686890542_481589ae4c_z.jpg */; };
+		8F2E570D24D36CEC00508B69 /* 19141201670_e695783255_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E570B24D36CEC00508B69 /* 19141201670_e695783255_b.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		8F2E56D424D1F39E00508B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F2E56D724D1F39E00508B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F2E56D924D1F39E00508B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F2E570A24D36CEB00508B69 /* 14686890542_481589ae4c_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14686890542_481589ae4c_z.jpg; path = ../../../Downloads/14686890542_481589ae4c_z.jpg; sourceTree = "<group>"; };
+		8F2E570B24D36CEC00508B69 /* 19141201670_e695783255_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 19141201670_e695783255_b.jpg; path = ../../../Downloads/19141201670_e695783255_b.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				8F2E56CA24D1F39B00508B69 /* SceneDelegate.swift */,
 				8F2E56CC24D1F39B00508B69 /* ViewController.swift */,
 				8F2E56CE24D1F39B00508B69 /* Main.storyboard */,
+				8F2E570A24D36CEB00508B69 /* 14686890542_481589ae4c_z.jpg */,
+				8F2E570B24D36CEC00508B69 /* 19141201670_e695783255_b.jpg */,
 				22D766EF24D33FFD0037EDB5 /* HSresourceViewController.swift */,
 				22D766ED24D33FDC0037EDB5 /* HSSTEMViewController.swift */,
 				22D766EB24D33FB30037EDB5 /* genResourcesViewController.swift */,
@@ -155,10 +161,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F2E570D24D36CEC00508B69 /* 19141201670_e695783255_b.jpg in Resources */,
 				18FA72F824D3680F0085AAF0 /* Viterbi-Twitter-Logo.jpg in Resources */,
 				8F2E56D824D1F39E00508B69 /* LaunchScreen.storyboard in Resources */,
 				8F2E56D524D1F39E00508B69 /* Assets.xcassets in Resources */,
 				8F2E56D024D1F39B00508B69 /* Main.storyboard in Resources */,
+				8F2E570C24D36CEC00508B69 /* 14686890542_481589ae4c_z.jpg in Resources */,
 				18FA72F424D367B50085AAF0 /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
