@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D766E424D337940037EDB5 /* categoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766E324D337940037EDB5 /* categoriesViewController.swift */; };
+		22D766E624D339A30037EDB5 /* middleSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766E524D339A30037EDB5 /* middleSchoolViewController.swift */; };
+		22D766E824D339C80037EDB5 /* highSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766E724D339C80037EDB5 /* highSchoolViewController.swift */; };
+		22D766EA24D33F850037EDB5 /* firstSTEMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766E924D33F850037EDB5 /* firstSTEMViewController.swift */; };
+		22D766EC24D33FB30037EDB5 /* genResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766EB24D33FB30037EDB5 /* genResourcesViewController.swift */; };
+		22D766EE24D33FDC0037EDB5 /* HSSTEMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766ED24D33FDC0037EDB5 /* HSSTEMViewController.swift */; };
+		22D766F024D33FFD0037EDB5 /* HSresourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766EF24D33FFD0037EDB5 /* HSresourceViewController.swift */; };
 		8F2E56C924D1F39B00508B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E56C824D1F39B00508B69 /* AppDelegate.swift */; };
 		8F2E56CB24D1F39B00508B69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E56CA24D1F39B00508B69 /* SceneDelegate.swift */; };
 		8F2E56CD24D1F39B00508B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E56CC24D1F39B00508B69 /* ViewController.swift */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22D766E324D337940037EDB5 /* categoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesViewController.swift; sourceTree = "<group>"; };
+		22D766E524D339A30037EDB5 /* middleSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = middleSchoolViewController.swift; sourceTree = "<group>"; };
+		22D766E724D339C80037EDB5 /* highSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = highSchoolViewController.swift; sourceTree = "<group>"; };
+		22D766E924D33F850037EDB5 /* firstSTEMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstSTEMViewController.swift; sourceTree = "<group>"; };
+		22D766EB24D33FB30037EDB5 /* genResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genResourcesViewController.swift; sourceTree = "<group>"; };
+		22D766ED24D33FDC0037EDB5 /* HSSTEMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSSTEMViewController.swift; sourceTree = "<group>"; };
+		22D766EF24D33FFD0037EDB5 /* HSresourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSresourceViewController.swift; sourceTree = "<group>"; };
 		8F2E56C524D1F39B00508B69 /* EdUcate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdUcate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2E56C824D1F39B00508B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F2E56CA24D1F39B00508B69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +76,13 @@
 				8F2E56CA24D1F39B00508B69 /* SceneDelegate.swift */,
 				8F2E56CC24D1F39B00508B69 /* ViewController.swift */,
 				8F2E56CE24D1F39B00508B69 /* Main.storyboard */,
+				22D766EF24D33FFD0037EDB5 /* HSresourceViewController.swift */,
+				22D766ED24D33FDC0037EDB5 /* HSSTEMViewController.swift */,
+				22D766EB24D33FB30037EDB5 /* genResourcesViewController.swift */,
+				22D766E924D33F850037EDB5 /* firstSTEMViewController.swift */,
+				22D766E724D339C80037EDB5 /* highSchoolViewController.swift */,
+				22D766E524D339A30037EDB5 /* middleSchoolViewController.swift */,
+				22D766E324D337940037EDB5 /* categoriesViewController.swift */,
 				8F2E56D424D1F39E00508B69 /* Assets.xcassets */,
 				8F2E56D624D1F39E00508B69 /* LaunchScreen.storyboard */,
 				8F2E56D924D1F39E00508B69 /* Info.plist */,
@@ -141,8 +162,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D766EE24D33FDC0037EDB5 /* HSSTEMViewController.swift in Sources */,
+				22D766F024D33FFD0037EDB5 /* HSresourceViewController.swift in Sources */,
+				22D766EA24D33F850037EDB5 /* firstSTEMViewController.swift in Sources */,
+				22D766E824D339C80037EDB5 /* highSchoolViewController.swift in Sources */,
 				8F2E56CD24D1F39B00508B69 /* ViewController.swift in Sources */,
+				22D766E424D337940037EDB5 /* categoriesViewController.swift in Sources */,
+				22D766E624D339A30037EDB5 /* middleSchoolViewController.swift in Sources */,
 				8F2E56C924D1F39B00508B69 /* AppDelegate.swift in Sources */,
+				22D766EC24D33FB30037EDB5 /* genResourcesViewController.swift in Sources */,
 				8F2E56CB24D1F39B00508B69 /* SceneDelegate.swift in Sources */,
 				8F2E56D324D1F39B00508B69 /* EdUcate.xcdatamodeld in Sources */,
 			);
