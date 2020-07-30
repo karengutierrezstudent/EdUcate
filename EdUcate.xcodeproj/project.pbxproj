@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18FA72F424D367B50085AAF0 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18FA72F324D367B50085AAF0 /* 1.jpeg */; };
+		18FA72F824D3680F0085AAF0 /* Viterbi-Twitter-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FA72F724D3680F0085AAF0 /* Viterbi-Twitter-Logo.jpg */; };
 		22D766E424D337940037EDB5 /* categoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766E324D337940037EDB5 /* categoriesViewController.swift */; };
 		22D766E624D339A30037EDB5 /* middleSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766E524D339A30037EDB5 /* middleSchoolViewController.swift */; };
 		22D766E824D339C80037EDB5 /* highSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D766E724D339C80037EDB5 /* highSchoolViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18FA72F324D367B50085AAF0 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = ../../../Desktop/1.jpeg; sourceTree = "<group>"; };
+		18FA72F724D3680F0085AAF0 /* Viterbi-Twitter-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Viterbi-Twitter-Logo.jpg"; path = "../../../Desktop/Viterbi-Twitter-Logo.jpg"; sourceTree = "<group>"; };
 		22D766E324D337940037EDB5 /* categoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesViewController.swift; sourceTree = "<group>"; };
 		22D766E524D339A30037EDB5 /* middleSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = middleSchoolViewController.swift; sourceTree = "<group>"; };
 		22D766E724D339C80037EDB5 /* highSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = highSchoolViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				8F2E56D424D1F39E00508B69 /* Assets.xcassets */,
 				8F2E56D624D1F39E00508B69 /* LaunchScreen.storyboard */,
 				8F2E56D924D1F39E00508B69 /* Info.plist */,
+				18FA72F724D3680F0085AAF0 /* Viterbi-Twitter-Logo.jpg */,
+				18FA72F324D367B50085AAF0 /* 1.jpeg */,
 				8F2E56D124D1F39B00508B69 /* EdUcate.xcdatamodeld */,
 			);
 			path = EdUcate;
@@ -149,9 +155,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA72F824D3680F0085AAF0 /* Viterbi-Twitter-Logo.jpg in Resources */,
 				8F2E56D824D1F39E00508B69 /* LaunchScreen.storyboard in Resources */,
 				8F2E56D524D1F39E00508B69 /* Assets.xcassets in Resources */,
 				8F2E56D024D1F39B00508B69 /* Main.storyboard in Resources */,
+				18FA72F424D367B50085AAF0 /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
