@@ -10,10 +10,23 @@ import UIKit
 
 class HSSTEMViewController: UIViewController {
 
+    
+    @IBAction func linkOne(_ sender: Any) {
+        let alertOne =  UIAlertController (title: "Go to this link!", message: "https://www.builtbygirls.com/about-wave", preferredStyle: UIAlertController.Style.alert)
+        alertOne.addAction(UIAlertAction(title: "Done", style: UIAlertAction.Style.default, handler: nil))
+        present(alertOne, animated: true, completion: nil)
+
+    }
+    
+    @IBAction func linkTwo(_ sender: Any) {
+        let alertTwo =  UIAlertController (title: "Go to this link!", message: "   https://girlswhocode.com/programs/summer-immersion-program", preferredStyle: UIAlertController.Style.alert)
+        alertTwo.addAction(UIAlertAction(title: "Done", style: UIAlertAction.Style.default, handler: nil))
+        present(alertTwo, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+     
     }
     
 
