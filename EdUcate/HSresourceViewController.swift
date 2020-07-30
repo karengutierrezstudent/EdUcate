@@ -10,6 +10,18 @@ import UIKit
 
 class HSresourceViewController: UIViewController {
 
+    @IBAction func firstLink(_ sender: Any) {
+        let alertOne =  UIAlertController (title: "Go to this link!", message: "https://www.thegist.edu.au/students/changing-the-world-with-stem/making-a-difference-with-stem/", preferredStyle: UIAlertController.Style.alert)
+        alertOne.addAction(UIAlertAction(title: "Done", style: UIAlertAction.Style.default, handler: nil))
+        present(alertOne, animated: true, completion: nil)
+    }
+    
+    @IBAction func secondLink(_ sender: Any) {
+        let alertOne =  UIAlertController (title: "Go to this link!", message: "http://www.hiddenfigures.com", preferredStyle: UIAlertController.Style.alert)
+               alertOne.addAction(UIAlertAction(title: "Done", style: UIAlertAction.Style.default, handler: nil))
+               present(alertOne, animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
