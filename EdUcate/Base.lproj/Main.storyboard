@@ -15,13 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="educate (3)" translatesAutoresizingMaskIntoConstraints="NO" id="qSL-Dc-aIo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="educate (3)" translatesAutoresizingMaskIntoConstraints="NO" id="qSL-Dc-aIo">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhH-8K-5vH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhH-8K-5vH">
                                 <rect key="frame" x="135" y="500" width="144" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="v4m-br-rAj"/>
+                                    <constraint firstAttribute="width" constant="144" id="vm8-K7-u0x"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Get started">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -32,6 +34,17 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dhH-8K-5vH" secondAttribute="trailing" constant="135" id="2nf-3B-ID8"/>
+                            <constraint firstItem="dhH-8K-5vH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="456" id="56T-bb-iRI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dhH-8K-5vH" secondAttribute="bottom" constant="314" id="BhT-JA-IjW"/>
+                            <constraint firstAttribute="bottom" secondItem="qSL-Dc-aIo" secondAttribute="bottom" id="MMp-FA-ild"/>
+                            <constraint firstItem="qSL-Dc-aIo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QbS-VM-Jrk"/>
+                            <constraint firstItem="dhH-8K-5vH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S6K-5X-acX"/>
+                            <constraint firstItem="dhH-8K-5vH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="Yto-Iu-bTY"/>
+                            <constraint firstItem="qSL-Dc-aIo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qUb-ka-wE0"/>
+                            <constraint firstItem="qSL-Dc-aIo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="trm-YY-OPh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="c7a-rp-DSx"/>
@@ -72,6 +85,17 @@
                                 </state>
                                 <connections>
                                     <segue destination="P9b-dM-VkJ" kind="presentation" modalPresentationStyle="fullScreen" id="lgv-O9-w7z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2S-1o-iv6">
+                                <rect key="frame" x="343" y="818" width="36" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8082368338" green="0.60157197579999999" blue="0.61426094809999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="OFh-AA-HXQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -123,6 +147,17 @@
                                 </state>
                                 <connections>
                                     <segue destination="S8R-fZ-uhh" kind="presentation" modalPresentationStyle="fullScreen" id="7iB-8a-Ftm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQ2-t1-UhN">
+                                <rect key="frame" x="358" y="818" width="36" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8082368338" green="0.60157197579999999" blue="0.61426094809999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="gNr-L8-vEt" kind="presentation" modalPresentationStyle="fullScreen" id="DEl-2V-Q9L"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -263,6 +298,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="P9b-dM-VkJ" kind="presentation" modalPresentationStyle="fullScreen" id="VWf-a7-Y0w"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -358,6 +396,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="P9b-dM-VkJ" kind="presentation" modalPresentationStyle="fullScreen" id="rvJ-Be-pK5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -407,6 +448,17 @@
                                 </state>
                                 <connections>
                                     <segue destination="dHM-Un-KdY" kind="presentation" modalPresentationStyle="fullScreen" id="9D2-VL-nOn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mci-fe-xFe">
+                                <rect key="frame" x="358" y="818" width="36" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8082368338" green="0.60157197579999999" blue="0.61426094809999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="gNr-L8-vEt" kind="presentation" modalPresentationStyle="fullScreen" id="xqZ-k3-C3F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -501,6 +553,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="aP8-3I-c5z" kind="presentation" modalPresentationStyle="fullScreen" id="JOs-y0-gjZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -597,6 +652,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="aP8-3I-c5z" kind="presentation" modalPresentationStyle="fullScreen" id="NgM-Lc-qEc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -609,6 +667,11 @@
             <point key="canvasLocation" x="2982.608695652174" y="-521.65178571428567"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="PUS-Y0-auS"/>
+        <segue reference="lgv-O9-w7z"/>
+        <segue reference="DEl-2V-Q9L"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="14686890542_481589ae4c_z.jpg" width="640" height="372"/>
         <image name="19141201670_e695783255_b.jpg" width="1024" height="768"/>
