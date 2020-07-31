@@ -25,6 +25,7 @@
 		8F2E56D824D1F39E00508B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E56D624D1F39E00508B69 /* LaunchScreen.storyboard */; };
 		8F2E570C24D36CEC00508B69 /* 14686890542_481589ae4c_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E570A24D36CEB00508B69 /* 14686890542_481589ae4c_z.jpg */; };
 		8F2E570D24D36CEC00508B69 /* 19141201670_e695783255_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E570B24D36CEC00508B69 /* 19141201670_e695783255_b.jpg */; };
+		8F2E570F24D4868700508B69 /* Viterbi-Twitter-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E570E24D4868600508B69 /* Viterbi-Twitter-Logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		8F2E56D924D1F39E00508B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F2E570A24D36CEB00508B69 /* 14686890542_481589ae4c_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14686890542_481589ae4c_z.jpg; path = ../../../Downloads/14686890542_481589ae4c_z.jpg; sourceTree = "<group>"; };
 		8F2E570B24D36CEC00508B69 /* 19141201670_e695783255_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 19141201670_e695783255_b.jpg; path = ../../../Downloads/19141201670_e695783255_b.jpg; sourceTree = "<group>"; };
+		8F2E570E24D4868600508B69 /* Viterbi-Twitter-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Viterbi-Twitter-Logo.jpg"; path = "../../../Downloads/Viterbi-Twitter-Logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				8F2E56CA24D1F39B00508B69 /* SceneDelegate.swift */,
 				8F2E56CC24D1F39B00508B69 /* ViewController.swift */,
 				8F2E56CE24D1F39B00508B69 /* Main.storyboard */,
+				8F2E570E24D4868600508B69 /* Viterbi-Twitter-Logo.jpg */,
 				8F2E570A24D36CEB00508B69 /* 14686890542_481589ae4c_z.jpg */,
 				8F2E570B24D36CEC00508B69 /* 19141201670_e695783255_b.jpg */,
 				22D766EF24D33FFD0037EDB5 /* HSresourceViewController.swift */,
@@ -163,6 +166,7 @@
 			files = (
 				8F2E570D24D36CEC00508B69 /* 19141201670_e695783255_b.jpg in Resources */,
 				18FA72F824D3680F0085AAF0 /* Viterbi-Twitter-Logo.jpg in Resources */,
+				8F2E570F24D4868700508B69 /* Viterbi-Twitter-Logo.jpg in Resources */,
 				8F2E56D824D1F39E00508B69 /* LaunchScreen.storyboard in Resources */,
 				8F2E56D524D1F39E00508B69 /* Assets.xcassets in Resources */,
 				8F2E56D024D1F39B00508B69 /* Main.storyboard in Resources */,
